@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .home .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(47, 106, 127);
+    /* top: 0;
+    bottom: 0; */
+    /* z-index: 1; */
+    mix-blend-mode: hard-light;
+    /* background-image: url(../../../public/images/video2.mp4); */
+  }
+  .home video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+/* .banner{
+    position: absolute;
+    width:"100%" !important;
+    height:"800px"!important;
+    border-radius:"30px";
+    border:"10px solid blue";
+
+} */
+
+/* .boxbanner{
+    position: absolute !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 auto !important;
+} */
+.bg-about{
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    z-index: -1;
+}
+.ll{background-image: url(../../public/images/weather.png);}
